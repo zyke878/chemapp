@@ -1,0 +1,246 @@
+{
+  "board": "CBSE",
+  "syllabus_year": "2026-27",
+  "notes": [
+    "groups_in_syllabus: the topic or group is named in the CBSE 2026-27 syllabus PDFs.",
+    "groups_to_verify: not named in the PDFs; added from knowledge of the NCERT chapters. Check against the textbook, then move to groups_in_syllabus or delete.",
+    "Both lists count as relevant for the grade until reviewed.",
+    "covers_everything: true means every group the engine detects counts as relevant for that grade (used for Classes 11 and 12, where many students also prepare for entrance exams). Set it to false to go back to the strict chapter lists."
+  ],
+  "grades": {
+    "10": {
+      "subject": "Science (086), Class X",
+      "chapters": [
+        {
+          "name": "Carbon and its Compounds",
+          "topics": [
+            "Covalent bonds: formation and properties of covalent compounds",
+            "Versatile nature of carbon",
+            "Hydrocarbons: saturated and unsaturated",
+            "Homologous series",
+            "Nomenclature of alkanes, alkenes, alkynes and compounds with halogen, alcohol, ketone and aldehyde groups",
+            "Chemical properties: combustion, oxidation, addition, substitution",
+            "Ethanol and ethanoic acid (properties and uses)",
+            "Soaps and detergents"
+          ],
+          "groups_in_syllabus": [
+            "alkane",
+            "alkene",
+            "alkyne",
+            "haloalkane",
+            "alcohol",
+            "aldehyde",
+            "ketone",
+            "carboxylic_acid"
+          ],
+          "groups_to_verify": [
+            "ester"
+          ]
+        }
+      ],
+      "covers_everything": false
+    },
+    "11": {
+      "subject": "Chemistry (043), Class XI",
+      "chapters": [
+        {
+          "name": "Chemical Bonding and Molecular Structure",
+          "topics": [
+            "Bond parameters",
+            "VSEPR theory",
+            "Valence bond theory",
+            "Hybridisation",
+            "Hydrogen bonding"
+          ],
+          "groups_in_syllabus": [],
+          "groups_to_verify": [],
+          "descriptors": [
+            "hybridisation",
+            "hbond_donors",
+            "hbond_acceptors"
+          ]
+        },
+        {
+          "name": "Organic Chemistry: Some Basic Principles and Techniques",
+          "topics": [
+            "Tetravalence of carbon: shapes of organic compounds",
+            "Structural representations",
+            "Classification and nomenclature of organic compounds",
+            "Isomerism",
+            "Fundamental concepts in organic reaction mechanism"
+          ],
+          "groups_in_syllabus": [],
+          "groups_to_verify": [
+            "haloalkane",
+            "haloarene",
+            "alcohol",
+            "phenol",
+            "ether",
+            "aldehyde",
+            "ketone",
+            "carboxylic_acid",
+            "ester",
+            "amide",
+            "primary_amine",
+            "secondary_amine",
+            "tertiary_amine"
+          ]
+        },
+        {
+          "name": "Hydrocarbons",
+          "topics": [
+            "Classification",
+            "Alkanes",
+            "Alkenes",
+            "Alkynes",
+            "Aromatic hydrocarbons",
+            "Carcinogenicity and toxicity"
+          ],
+          "groups_in_syllabus": [
+            "alkane",
+            "alkene",
+            "alkyne",
+            "arene"
+          ],
+          "groups_to_verify": [
+            "cycloalkane"
+          ]
+        }
+      ],
+      "covers_everything": true
+    },
+    "12": {
+      "subject": "Chemistry (043), Class XII",
+      "chapters": [
+        {
+          "name": "Haloalkanes and Haloarenes",
+          "topics": [
+            "Classification",
+            "Nomenclature",
+            "Nature of C-X bond",
+            "Methods of preparation",
+            "Physical properties",
+            "Chemical reactions",
+            "Polyhalogen compounds"
+          ],
+          "groups_in_syllabus": [
+            "haloalkane",
+            "haloarene"
+          ],
+          "groups_to_verify": []
+        },
+        {
+          "name": "Alcohols, Phenols and Ethers",
+          "topics": [
+            "Classification",
+            "Nomenclature",
+            "Structures of functional groups",
+            "Alcohols and phenols",
+            "Some commercially important alcohols",
+            "Ethers"
+          ],
+          "groups_in_syllabus": [
+            "alcohol",
+            "phenol",
+            "ether"
+          ],
+          "groups_to_verify": []
+        },
+        {
+          "name": "Aldehydes, Ketones and Carboxylic Acids",
+          "topics": [
+            "Nomenclature and structure of carbonyl group",
+            "Preparation",
+            "Physical properties and chemical reactions",
+            "Uses",
+            "Structure of carboxyl group"
+          ],
+          "groups_in_syllabus": [
+            "aldehyde",
+            "ketone",
+            "carboxylic_acid"
+          ],
+          "groups_to_verify": [
+            "ester"
+          ]
+        },
+        {
+          "name": "Amines",
+          "topics": [
+            "Structure",
+            "Classification",
+            "Nomenclature",
+            "Preparation",
+            "Physical properties",
+            "Chemical reactions",
+            "Diazonium salts and their importance in synthesis of aromatic compounds"
+          ],
+          "groups_in_syllabus": [
+            "primary_amine",
+            "secondary_amine",
+            "tertiary_amine",
+            "diazonium_salt"
+          ],
+          "groups_to_verify": [
+            "amide"
+          ]
+        },
+        {
+          "name": "Biomolecules",
+          "topics": [
+            "Carbohydrates",
+            "Proteins",
+            "Enzymes",
+            "Vitamins",
+            "Nucleic acids",
+            "Hormones"
+          ],
+          "groups_in_syllabus": [
+            "carbohydrate",
+            "amino_acid"
+          ],
+          "groups_to_verify": [
+            "amide"
+          ],
+          "not_auto_detected": [
+            "enzymes",
+            "vitamins",
+            "nucleic acids",
+            "hormones"
+          ]
+        },
+        {
+          "name": "Practical: tests for functional groups",
+          "topics": [
+            "Unsaturation, alcoholic, phenolic, aldehydic, ketonic, carboxylic and primary amino group tests",
+            "Characteristic tests of carbohydrates, fats and proteins"
+          ],
+          "groups_in_syllabus": [
+            "alkene",
+            "alkyne",
+            "alcohol",
+            "phenol",
+            "aldehyde",
+            "ketone",
+            "carboxylic_acid",
+            "primary_amine",
+            "carbohydrate"
+          ],
+          "groups_to_verify": []
+        }
+      ],
+      "functional_group_tests": {
+        "alkene": "unsaturation",
+        "alkyne": "unsaturation",
+        "alcohol": "alcoholic group",
+        "phenol": "phenolic group",
+        "aldehyde": "aldehydic group",
+        "ketone": "ketonic group",
+        "carboxylic_acid": "carboxylic group",
+        "primary_amine": "primary amino group",
+        "carbohydrate": "carbohydrates"
+      },
+      "covers_everything": true
+    }
+  }
+}
